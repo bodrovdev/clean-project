@@ -10,6 +10,6 @@ window.addEventListener('load', () => {
 })
 
 // ? --- Показать страницу только после загрузки
-window.addEventListener('load', () => {
-  document.body.removeAttribute('style');
-})
+// window.addEventListener('load', () => {
+//   document.body.removeAttribute('style');
+// })
