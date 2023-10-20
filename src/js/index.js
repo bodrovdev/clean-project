@@ -1,4 +1,4 @@
-import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
+import { lock, unlock } from 'tua-body-scroll-lock';
 
 // ? --- Отключение подсветки ошибок в инпутах
 window.addEventListener('load', () => {
@@ -8,8 +8,3 @@ window.addEventListener('load', () => {
     })
   }
 })
-
-// ? --- Показать страницу только после загрузки
-// window.addEventListener('load', () => {
-//   document.body.removeAttribute('style');
-// })

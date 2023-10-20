@@ -148,14 +148,44 @@ h6 {
 }
 
 .base-container {
-	width: 90%;
+	width: 100%;
 
+	padding: 0 12px;
 	margin: 0 auto;
 }
 
-@media(min-width:'1300px') {
+@media(min-width: 320px) and (max-width: 576px) {
 	.base-container {
-		width: 100%;
-		max-width: 1300px;
+		max-width: none;
+	}
+}
+
+@media(min-width: 576px) and (max-width: 768px) {
+	.base-container {
+		max-width: 564px;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 992px) {
+	.base-container {
+		max-width: 744px;
+	}
+}
+
+@media(min-width: 992px) and (max-width: 1200px) {
+	.base-container {
+		max-width: 984px;
+	}
+}
+
+@media(min-width: 1200px) and (max-width: 1400px) {
+	.base-container {
+		max-width: 1164px;
+	}
+}
+
+@media(min-width: 1400px) {
+	.base-container {
+		max-width: 1344px;
 	}
 }
